@@ -1,0 +1,132 @@
+<html>
+  <head>
+    <!-- 提供有关文档内容和标注信息的 -->
+    <meta charset="UTF-8">
+    <title>我爱中中哥</title>
+    <!-- 最重要的元素 -->
+  </head>
+  <body>
+    <a href="C:\晴空\html\first_zzg.html" target="_blank">中中</a>
+    <a href="C:\晴空\html\first_zzg.html" >中中</a>
+    <!-- 超链接 -->
+    <b>粗体</b>
+    <em>斜体</em>
+    <u>下划线</u>
+    <s>删除键</s>
+
+
+
+    <table border="1px" align="center">
+      <!--表格，边框是1px, 居中，而且不用担心单元格过小-->
+      <thead>
+      <tr>
+        <th>我是标题，我会粗，而且居中</th>
+        <th>第二个单元格</th>
+        <th>第三个单元格</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">合并一个列单元格</td>       
+          <td colspan="2">合并后面的一个单元格</td>
+        </tr>
+        <tr>
+          <td>第二个单元格。。</td>
+          <td>第三个单元格。。</td>
+        </tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+    <br>
+    <!-- 换行 -->
+
+
+    <ol type="I">
+      <!-- 有序列表 -->
+      <li>处理图像</li>
+      <ol reversed> 
+      <li>处理图像</li>
+      <li>处理图像</li>
+      <li>处理图像</li>
+      </ol>
+    </ol>
+    <ul>
+      <!-- 无序标签 -->
+      <li>哈哈哈</li>
+      <li>哈哈哈</li>
+      <li>哈哈哈</li>
+      <li>哈哈哈</li>
+    </ul>
+
+    <form action="">
+      <input type="text" value="你好哇">
+      <!-- 单行文本框 -->
+      <input type="text" placeholder="你好哇">
+      <input type="text" placeholder="你好哇" maxlength="10">
+      <input type="text">
+      <input type="text" placeholder="你好哇" size="50">
+      <input type="text" value="你好哇" size="50" readonly>
+      <input type="password" value="你好哇">
+      <input type="submit" value="按钮">
+      <textarea name="" id="" cols="30" rows="20">
+      <!-- 多行文本框 -->
+      这里写进东西！！！
+      </textarea>
+    </form>
+    <form action="">
+      <input type="button">
+      <button>按钮</button>
+      <!-- 和JS合作且作为绑定事件的 -->
+      <input type="submit" value="提交表单">
+      <input type="range" min="-100" max="500" step="50" value="250">
+      <!-- 数字滑动 -->
+      <input type="number">
+      <!-- 手动输入 -->
+      <input type="checkbox" value="勾选">选择
+      <br>
+      程序员中最帅的是谁
+      <br>
+      <input type="radio" name="a" checked>中中哥
+      <input type="radio" name="a">中中哥
+      <input type="radio" name="a">中中哥
+      <!-- 生成固定选项 -->
+      你最喜欢吃的水果是什么
+      <select name="" id="">
+        <option value="!">cheery</option>
+        <option value="!">watermelon</option>
+        <option value="!">blanana</option>
+      </select>
+      <input type="text" list="datalist1">
+      <datalist id="datalist1">
+          <option value="!">cheery</option>
+          <option value="!">watermelon</option>
+          <option value="!">blanana</option>
+          <!-- 注意，这个必须搭配input使用 -->
+          <!-- datalist可以手动输入 -->
+      </datalist>
+    </form type="text">
+    <form action="">
+      <input type="data">
+      <input type="color">
+      <!-- <input type="image" src="图片地址" width="40px"> -->
+      <input type="file">
+      <!-- 当使用input元素上传表单时，要设置：
+      <form action="" enctype="multipart/form-data"> -->
+    </form>
+    
+    <img src="download1.jpg" width="128px" alt="备用内容" usemap="#map1">
+    
+    <form action="">
+      <input type="image" src="download1.jpg">
+    </form>
+    <map name="map1">
+      <area shape="rect" coords="2,30,100,60" href="first_zzg.html" alt="">
+      <!-- rect 左，上，右，下
+      circle 左边缘到圆心的距离，右边缘到圆心的距离，半径 -->
+      
+      <area shape="" coords="" href="hhh.html" alt="">
+      <area shape="" coords="" href="" alt="">
+    </map>
+  </body>
+</html>
