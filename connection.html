@@ -4,17 +4,44 @@
     <meta charset="UTF-8">
     <title>css初步</title>
     <link rel="stylesheet"  type="text/css" href="cssprimary.css">
-    <!-- <style type="text/css">
-        a{
+    <style type="text/css">
+        *{
             font-size: 40px;
             color: antiquewhite;
             /* 文档内嵌样式表 */
         }
-    </style> -->
+        a:hover{
+            font-size: 80px;
+            color: coral;
+            /* 冒号属性 */
+        }
+    </style>
+    <!-- *是指对于全部标签 -->
+    <!-- 优先级：内部，文档，外部 -->
+    <style type="text/css"> 
+    .class1 {
+        font-size: 40px;
+            color: #000;
+    }
+    /* class用.  id用#  [herf]属性选择器*/
+    </style>
+    <style type="text/css">
+        .class1{
+            border-width: 8px;
+            border-style: solid;
+            /*简写属性：border: 宽度 样式 颜色 */
+            background-color: aqua;
+            background-image: url(download1.jpg);
+        }
+    </style>
     </head>
     <body>
         <!-- <a href="" style="font-size: 40px ; color: powderblue">大爱中中</a>
         元素内嵌样式表 -->
         <a href="first_zzg.html">你好哇</a>
+        <p>你好哇</p>
+        <h1 class="class1">你好哇</h1>
+        <!-- class是全局属性，指所有标签都有的属性 -->
+        <h2>hello</h2>
     </body>
 </html>
